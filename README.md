@@ -1,10 +1,10 @@
-# 🤖 Drawing Robot ROS2 Simulation
+#  Drawing Robot ROS2 Simulation
 
 A simulated XY plotter robot built with ROS2 and visualized in RViz. The robot can draw shapes automatically and trace outlines from real images using OpenCV edge detection.
 
 ---
 
-## 📸 What It Does
+##  What It Does
 
 - Simulates a 2-axis (XY) drawing robot in RViz
 - Moves joints automatically to draw a square path
@@ -13,7 +13,7 @@ A simulated XY plotter robot built with ROS2 and visualized in RViz. The robot c
 
 ---
 
-## 🧰 Requirements
+##  Requirements
 
 - Ubuntu (20.04 or 22.04)
 - ROS2 Humble
@@ -25,7 +25,7 @@ A simulated XY plotter robot built with ROS2 and visualized in RViz. The robot c
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 drawing_robot_ws/
@@ -43,7 +43,7 @@ drawing_robot_ws/
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ```bash
 git clone https://github.com/PES2UG23CS065/drawing_robot_ros2.git
@@ -54,7 +54,7 @@ source install/setup.bash
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Visualize the robot in RViz
 
@@ -109,7 +109,7 @@ ros2 run drawing_robot_controller image_draw_controller /path/to/your/image.png
 
 ---
 
-## 🧠 How the Image Processing Works
+##  How the Image Processing Works
 
 File: `image_processor.py`
 
